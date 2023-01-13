@@ -7,7 +7,7 @@ import TrepupLogo from "./TrepupLogo";
 const Header = (screenProps: BasicParametersProps) => {
   const { colors } = screenProps.theme;
   return (
-    <View style={[Styles.flexRow, Styles.flexAlignCenter, Styles.width100per, Styles.height56, Styles.paddingHorizontal8, Styles.borderBottom1, { justifyContent: "space-between", borderBottomColor: colors.seperator }]}>
+    <View style={[Styles.flexRow, Styles.flexAlignCenter, Styles.width100per, Styles.height64, Styles.paddingHorizontal8, Styles.borderBottom1, { justifyContent: "space-between", borderBottomColor: colors.seperator }]}>
       <View style={[Styles.flexRow, Styles.flexAlignCenter]}>
         <IconButton icon="menu" iconColor={colors.text} size={24} onPress={() => screenProps.navigation.toggleDrawer()} />
         <TrepupLogo />
